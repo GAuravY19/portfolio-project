@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin-top: 5%;
+}
+
+.box1{
+    display: flex;
+    gap: 50px;
+    margin-left: 27%;
+}
+
+.imgsize{
+    height: 304px;
+    width: auto;
+}
