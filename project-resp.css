@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px){
+
+    .cards .title p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        padding-left: 45px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .cards .Infobox{
+        flex-direction: column;
+    }
+
+    .cards {
+        height: 560px;
+        width: 80%;
+        background-color: #f0f0f0;
+        margin: 5% 9%;
+        border-radius: 10px;
+        border: 2px solid mintcream;
+    }
+
+    .cards .Infobox .imgbox img {
+        height: 200px;
+        width: auto;
+        border-radius: 10px;
+        border: 2px solid currentColor;
+        margin-left: 20%;
+    }
+
+    .cards .Infobox .infotext p {
+        font-size: 19px;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .shift{
+        margin-left: 45%;
+        /* align-items: center; */
+    }
+}
+
+@media screen and (max-width : 440px) {
+    .cards {
+        height: 770px;
+        width: 412px;
+        background-color: #f0f0f0;
+        margin: 5% 2%;
+        border-radius: 10px;
+        border: 2px solid mintcream;
+    }
+
+    .cards .Infobox .imgbox img {
+        margin-left: -3%;
+    }
+
+    .cards .title p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    .cards .Infobox .infotext p {
+        font-size: 19px;
+        padding-left: 40px;
+        /* text-align: center; */
+    }
+}
+
+

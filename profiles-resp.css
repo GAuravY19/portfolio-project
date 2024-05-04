@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width:1000px) {
+    .box1{
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 34%;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .media-size{
+        height: 180px;
+        width: 180px;
+    }
+
+    .box1{
+        margin-left: 27%;
+    }
+
+    #card{
+        width: 11.4rem;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rbox{
+    background-color: white;
+    height: 600px;
+    width: 512px;
+    margin-left: 30%;
+    margin-top: 2%;
+    /* align-items: center; */
+}
+
+
+.resume-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.button {
+    height: 32px;
+    background-color: limegreen;
+    width: 125px;
+    border-radius: 10px;
+    border: 2px solid ghostwhite;
+}
+
+.button-text {
+text-align: center;
+padding-top: 2px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.download{
+    margin-left: 42%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
