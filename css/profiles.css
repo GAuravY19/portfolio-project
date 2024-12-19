@@ -25,3 +25,20 @@
 .emp-space{
     margin-bottom: 10px;
 }
+
+.navbar{
+    height: 60px!important;
+}
+
+#trigger:hover{
+    color: #fff !important;
+}
+
+a:hover {
+    /* --bs-link-color-rgb: var(--bs-link-hover-color-rgb); */
+    --bs-link-color-rgb: white;
+}
+
+.navbar-brand:focus{
+    color:white;
+}
